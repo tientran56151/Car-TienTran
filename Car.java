@@ -10,6 +10,8 @@ public class Car {
 		return range;
 		
 	}
+	
+	//:>)
 		
 	public boolean equals(Car a) {
 		if (a.getClass() == this.getClass())
