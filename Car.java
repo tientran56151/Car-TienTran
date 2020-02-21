@@ -5,6 +5,11 @@ public class Car {
 	public Car(int data) {
 		this.range = data;		
 	}
+	
+	public int getRange() {
+		return range;
+		
+	}
 		
 	public boolean equals(Car a) {
 		if (a.getClass() == this.getClass())
