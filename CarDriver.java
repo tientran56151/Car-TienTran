@@ -25,8 +25,8 @@ public class CarDriver {
 		System.out.println(a.equals(y));
 		
 		// look at 
-		Car tesla = new SuperCar(250);
-		tesla.toString();
+		Car monsterTruck = new SuperCar(250);
+		monsterTruck.toString();
 		//tesla.impress();
 		//SuperCar x = new Car(700);
 		//x.impress();				
