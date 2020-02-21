@@ -14,11 +14,9 @@ public class CarTest {
 	
 	@Test
 	public void testCar() {
-		Car x = new Car(50);
-		assertFalse(car.equals(x));
+		assertFalse(car.getRange() != 50);
 		
-		Car y = new Car(100);
-		assertTrue(car.equals(y));
+		assertTrue(car.getRange() == 100);
 	}
 
 	@Test
