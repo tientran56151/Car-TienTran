@@ -11,7 +11,7 @@ public class Car {
 		
 	}
 	
-	//:>)
+	//Practice :>)
 		
 	public boolean equals(Car a) {
 		if (a.getClass() == this.getClass())
